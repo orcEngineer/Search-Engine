@@ -6,7 +6,7 @@ Search Engine - это простой и эффективный поисковы
 
 1. Склонируйте репозиторий на свой компьютер:
     ```bash
-    git clone https://github.com/orcEngineer/file_search_engine.git
+    git clone https://github.com/orcEngineer/file_search_engine.git(https://github.com/orcEngineer/Search-Engine)
     ```
 
 2. Перейдите в директорию проекта:
