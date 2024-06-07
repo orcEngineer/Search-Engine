@@ -79,3 +79,48 @@ Search Engine - это простой и эффективный поисковы
 
 - [nlohmann/json](https://github.com/nlohmann/json) для работы с JSON.
 - [Google Test](https://github.com/google/googletest) для тестирования.
+
+
+
+Пример команд для выполнения всех шагов:
+
+# Склонируйте репозиторий
+git clone https://github.com/orcEngineer/file_search_engine.git
+
+# Перейдите в директорию проекта
+cd file_search_engine
+
+# Создайте директорию сборки и перейдите в нее
+mkdir build
+cd build
+
+# Запустите CMake для генерации Makefile
+cmake ..
+
+# Соберите проект
+make
+
+# Вернитесь в корневую директорию проекта
+cd ..
+
+# Создайте файл config.json и добавьте пути к документам
+echo '{
+    "files": [
+        "path/to/document1.txt",
+        "path/to/document2.txt"
+    ]
+}' > config.json
+
+# Создайте файл requests.json и добавьте поисковые запросы
+echo '{
+    "requests": [
+        "query1",
+        "query2"
+    ]
+}' > requests.json
+
+# Запустите исполняемый файл
+./build/file_search_engine
+
+# Результаты будут записаны в файл answers.json
+Следуя этим шагам, вы сможете успешно установить и использовать проект для поиска в ваших текстовых документах.
