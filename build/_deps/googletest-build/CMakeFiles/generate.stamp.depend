@@ -1,4 +1,0 @@
-# CMake generation dependency list for this directory.
-D:/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake
-D:/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
-D:/projects/file_search_engine/build/_deps/googletest-src/CMakeLists.txt
