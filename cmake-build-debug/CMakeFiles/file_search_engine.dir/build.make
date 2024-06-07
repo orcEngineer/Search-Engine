@@ -68,81 +68,82 @@ include CMakeFiles/file_search_engine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/file_search_engine.dir/flags.make
 
-CMakeFiles/file_search_engine.dir/main.cpp.obj: CMakeFiles/file_search_engine.dir/flags.make
-CMakeFiles/file_search_engine.dir/main.cpp.obj: CMakeFiles/file_search_engine.dir/includes_CXX.rsp
-CMakeFiles/file_search_engine.dir/main.cpp.obj: D:/projects/file_search_engine/main.cpp
-CMakeFiles/file_search_engine.dir/main.cpp.obj: CMakeFiles/file_search_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\file_search_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/file_search_engine.dir/main.cpp.obj"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_search_engine.dir/main.cpp.obj -MF CMakeFiles\file_search_engine.dir\main.cpp.obj.d -o CMakeFiles\file_search_engine.dir\main.cpp.obj -c D:\projects\file_search_engine\main.cpp
+CMakeFiles/file_search_engine.dir/src/main.cpp.obj: CMakeFiles/file_search_engine.dir/flags.make
+CMakeFiles/file_search_engine.dir/src/main.cpp.obj: CMakeFiles/file_search_engine.dir/includes_CXX.rsp
+CMakeFiles/file_search_engine.dir/src/main.cpp.obj: D:/projects/file_search_engine/src/main.cpp
+CMakeFiles/file_search_engine.dir/src/main.cpp.obj: CMakeFiles/file_search_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\file_search_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/file_search_engine.dir/src/main.cpp.obj"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_search_engine.dir/src/main.cpp.obj -MF CMakeFiles\file_search_engine.dir\src\main.cpp.obj.d -o CMakeFiles\file_search_engine.dir\src\main.cpp.obj -c D:\projects\file_search_engine\src\main.cpp
 
-CMakeFiles/file_search_engine.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_search_engine.dir/main.cpp.i"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\file_search_engine\main.cpp > CMakeFiles\file_search_engine.dir\main.cpp.i
+CMakeFiles/file_search_engine.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_search_engine.dir/src/main.cpp.i"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\file_search_engine\src\main.cpp > CMakeFiles\file_search_engine.dir\src\main.cpp.i
 
-CMakeFiles/file_search_engine.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_search_engine.dir/main.cpp.s"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\file_search_engine\main.cpp -o CMakeFiles\file_search_engine.dir\main.cpp.s
+CMakeFiles/file_search_engine.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_search_engine.dir/src/main.cpp.s"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\file_search_engine\src\main.cpp -o CMakeFiles\file_search_engine.dir\src\main.cpp.s
 
-CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.obj: CMakeFiles/file_search_engine.dir/flags.make
-CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.obj: CMakeFiles/file_search_engine.dir/includes_CXX.rsp
-CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.obj: D:/projects/file_search_engine/ConverterJSON.cpp
-CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.obj: CMakeFiles/file_search_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\file_search_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.obj"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.obj -MF CMakeFiles\file_search_engine.dir\ConverterJSON.cpp.obj.d -o CMakeFiles\file_search_engine.dir\ConverterJSON.cpp.obj -c D:\projects\file_search_engine\ConverterJSON.cpp
+CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.obj: CMakeFiles/file_search_engine.dir/flags.make
+CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.obj: CMakeFiles/file_search_engine.dir/includes_CXX.rsp
+CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.obj: D:/projects/file_search_engine/src/ConverterJSON.cpp
+CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.obj: CMakeFiles/file_search_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\file_search_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.obj"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.obj -MF CMakeFiles\file_search_engine.dir\src\ConverterJSON.cpp.obj.d -o CMakeFiles\file_search_engine.dir\src\ConverterJSON.cpp.obj -c D:\projects\file_search_engine\src\ConverterJSON.cpp
 
-CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.i"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\file_search_engine\ConverterJSON.cpp > CMakeFiles\file_search_engine.dir\ConverterJSON.cpp.i
+CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.i"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\file_search_engine\src\ConverterJSON.cpp > CMakeFiles\file_search_engine.dir\src\ConverterJSON.cpp.i
 
-CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.s"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\file_search_engine\ConverterJSON.cpp -o CMakeFiles\file_search_engine.dir\ConverterJSON.cpp.s
+CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.s"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\file_search_engine\src\ConverterJSON.cpp -o CMakeFiles\file_search_engine.dir\src\ConverterJSON.cpp.s
 
-CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.obj: CMakeFiles/file_search_engine.dir/flags.make
-CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.obj: CMakeFiles/file_search_engine.dir/includes_CXX.rsp
-CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.obj: D:/projects/file_search_engine/InvertedIndex.cpp
-CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.obj: CMakeFiles/file_search_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\file_search_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.obj"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.obj -MF CMakeFiles\file_search_engine.dir\InvertedIndex.cpp.obj.d -o CMakeFiles\file_search_engine.dir\InvertedIndex.cpp.obj -c D:\projects\file_search_engine\InvertedIndex.cpp
+CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.obj: CMakeFiles/file_search_engine.dir/flags.make
+CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.obj: CMakeFiles/file_search_engine.dir/includes_CXX.rsp
+CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.obj: D:/projects/file_search_engine/src/InvertedIndex.cpp
+CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.obj: CMakeFiles/file_search_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\file_search_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.obj"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.obj -MF CMakeFiles\file_search_engine.dir\src\InvertedIndex.cpp.obj.d -o CMakeFiles\file_search_engine.dir\src\InvertedIndex.cpp.obj -c D:\projects\file_search_engine\src\InvertedIndex.cpp
 
-CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.i"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\file_search_engine\InvertedIndex.cpp > CMakeFiles\file_search_engine.dir\InvertedIndex.cpp.i
+CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.i"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\file_search_engine\src\InvertedIndex.cpp > CMakeFiles\file_search_engine.dir\src\InvertedIndex.cpp.i
 
-CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.s"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\file_search_engine\InvertedIndex.cpp -o CMakeFiles\file_search_engine.dir\InvertedIndex.cpp.s
+CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.s"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\file_search_engine\src\InvertedIndex.cpp -o CMakeFiles\file_search_engine.dir\src\InvertedIndex.cpp.s
 
-CMakeFiles/file_search_engine.dir/SearchServer.cpp.obj: CMakeFiles/file_search_engine.dir/flags.make
-CMakeFiles/file_search_engine.dir/SearchServer.cpp.obj: CMakeFiles/file_search_engine.dir/includes_CXX.rsp
-CMakeFiles/file_search_engine.dir/SearchServer.cpp.obj: D:/projects/file_search_engine/SearchServer.cpp
-CMakeFiles/file_search_engine.dir/SearchServer.cpp.obj: CMakeFiles/file_search_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\file_search_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/file_search_engine.dir/SearchServer.cpp.obj"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_search_engine.dir/SearchServer.cpp.obj -MF CMakeFiles\file_search_engine.dir\SearchServer.cpp.obj.d -o CMakeFiles\file_search_engine.dir\SearchServer.cpp.obj -c D:\projects\file_search_engine\SearchServer.cpp
+CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.obj: CMakeFiles/file_search_engine.dir/flags.make
+CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.obj: CMakeFiles/file_search_engine.dir/includes_CXX.rsp
+CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.obj: D:/projects/file_search_engine/src/SearchServer.cpp
+CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.obj: CMakeFiles/file_search_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\file_search_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.obj"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.obj -MF CMakeFiles\file_search_engine.dir\src\SearchServer.cpp.obj.d -o CMakeFiles\file_search_engine.dir\src\SearchServer.cpp.obj -c D:\projects\file_search_engine\src\SearchServer.cpp
 
-CMakeFiles/file_search_engine.dir/SearchServer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_search_engine.dir/SearchServer.cpp.i"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\file_search_engine\SearchServer.cpp > CMakeFiles\file_search_engine.dir\SearchServer.cpp.i
+CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.i"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\file_search_engine\src\SearchServer.cpp > CMakeFiles\file_search_engine.dir\src\SearchServer.cpp.i
 
-CMakeFiles/file_search_engine.dir/SearchServer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_search_engine.dir/SearchServer.cpp.s"
-	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\file_search_engine\SearchServer.cpp -o CMakeFiles\file_search_engine.dir\SearchServer.cpp.s
+CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.s"
+	"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\file_search_engine\src\SearchServer.cpp -o CMakeFiles\file_search_engine.dir\src\SearchServer.cpp.s
 
 # Object files for target file_search_engine
 file_search_engine_OBJECTS = \
-"CMakeFiles/file_search_engine.dir/main.cpp.obj" \
-"CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.obj" \
-"CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.obj" \
-"CMakeFiles/file_search_engine.dir/SearchServer.cpp.obj"
+"CMakeFiles/file_search_engine.dir/src/main.cpp.obj" \
+"CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.obj" \
+"CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.obj" \
+"CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.obj"
 
 # External object files for target file_search_engine
 file_search_engine_EXTERNAL_OBJECTS =
 
-file_search_engine.exe: CMakeFiles/file_search_engine.dir/main.cpp.obj
-file_search_engine.exe: CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.obj
-file_search_engine.exe: CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.obj
-file_search_engine.exe: CMakeFiles/file_search_engine.dir/SearchServer.cpp.obj
+file_search_engine.exe: CMakeFiles/file_search_engine.dir/src/main.cpp.obj
+file_search_engine.exe: CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.obj
+file_search_engine.exe: CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.obj
+file_search_engine.exe: CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.obj
 file_search_engine.exe: CMakeFiles/file_search_engine.dir/build.make
+file_search_engine.exe: lib/libgtestd.a
 file_search_engine.exe: lib/libgtest_maind.a
 file_search_engine.exe: lib/libgtestd.a
 file_search_engine.exe: CMakeFiles/file_search_engine.dir/linkLibs.rsp

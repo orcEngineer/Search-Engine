@@ -9,19 +9,19 @@ set(JSON_BuildTests OFF CACHE INTERNAL "")
 # Добавляем подкаталог для nlohmann_json
 add_subdirectory(nlohmann.json)
 
-# Создаем исполняемый файл
+# Определяем цель для исполняемого файла file_search_engine
 add_executable(file_search_engine
-        main.cpp
-        ConverterJSON.cpp
-        ConverterJSON.h
-        InvertedIndex.h
-        InvertedIndex.cpp
-        SearchServer.cpp
-        SearchServer.h
+        src/main.cpp
+        src/ConverterJSON.cpp
+        src/InvertedIndex.cpp
+        src/SearchServer.cpp
+        include/ConverterJSON.h
+        include/InvertedIndex.h
+        include/SearchServer.h
 )
 
 # Подключаем библиотеку nlohmann_json
-target_link_libraries(file_search_engine PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(file_search_engine nlohmann_json::nlohmann_json)
 
 # Используем FetchContent для подключения googletest
 include(FetchContent)
@@ -34,9 +34,21 @@ FetchContent_MakeAvailable(googletest)
 # Настраиваем GoogleTest
 enable_testing()
 
-# Добавляем библиотеку gtest и gtest_main к целевому файлу file_search_engine
-target_link_libraries(file_search_engine PRIVATE gtest_main)
+# Определяем цель для исполняемого файла с тестами
+add_executable(file_search_engine_tests
+        src/inverted_index_tests.cpp
+        src/search_server_tests.cpp
+        src/ConverterJSON.cpp
+        src/InvertedIndex.cpp
+        src/SearchServer.cpp
+        include/ConverterJSON.h
+        include/InvertedIndex.h
+        include/SearchServer.h
+)
+
+# Подключаем библиотеку Google Test к исполняемому файлу с тестами
+target_link_libraries(file_search_engine_tests gtest gtest_main nlohmann_json::nlohmann_json)
 
 # Добавляем тесты
 include(GoogleTest)
-gtest_discover_tests(file_search_engine)
+gtest_discover_tests(file_search_engine_tests)

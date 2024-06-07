@@ -183,6 +183,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... nlohmann_json
 .PHONY : help
 
 

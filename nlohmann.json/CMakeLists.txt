@@ -100,7 +100,9 @@ endif()
 ## TARGET
 ## create target and add include path
 ##
-add_library(${NLOHMANN_JSON_TARGET_NAME} INTERFACE)
+add_library(${NLOHMANN_JSON_TARGET_NAME} INTERFACE
+        ../src/inverted_index_tests.cpp
+        ../src/search_server_tests.cpp)
 add_library(${PROJECT_NAME}::${NLOHMANN_JSON_TARGET_NAME} ALIAS ${NLOHMANN_JSON_TARGET_NAME})
 if (${CMAKE_VERSION} VERSION_LESS "3.8.0")
     target_compile_features(${NLOHMANN_JSON_TARGET_NAME} INTERFACE cxx_range_for)

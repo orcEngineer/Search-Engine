@@ -338,24 +338,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/projects/file_search_engine/ConverterJSON.cpp">
-			<Option target="file_search_engine"/>
-		</Unit>
-		<Unit filename="D:/projects/file_search_engine/ConverterJSON.h">
-			<Option target="file_search_engine"/>
-		</Unit>
-		<Unit filename="D:/projects/file_search_engine/InvertedIndex.cpp">
-			<Option target="file_search_engine"/>
-		</Unit>
-		<Unit filename="D:/projects/file_search_engine/InvertedIndex.h">
-			<Option target="file_search_engine"/>
-		</Unit>
-		<Unit filename="D:/projects/file_search_engine/SearchServer.cpp">
-			<Option target="file_search_engine"/>
-		</Unit>
-		<Unit filename="D:/projects/file_search_engine/SearchServer.h">
-			<Option target="file_search_engine"/>
-		</Unit>
 		<Unit filename="D:/projects/file_search_engine/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
@@ -368,7 +350,25 @@
 		<Unit filename="D:/projects/file_search_engine/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="D:/projects/file_search_engine/main.cpp">
+		<Unit filename="D:/projects/file_search_engine/include/ConverterJSON.h">
+			<Option target="file_search_engine"/>
+		</Unit>
+		<Unit filename="D:/projects/file_search_engine/include/InvertedIndex.h">
+			<Option target="file_search_engine"/>
+		</Unit>
+		<Unit filename="D:/projects/file_search_engine/include/SearchServer.h">
+			<Option target="file_search_engine"/>
+		</Unit>
+		<Unit filename="D:/projects/file_search_engine/src/ConverterJSON.cpp">
+			<Option target="file_search_engine"/>
+		</Unit>
+		<Unit filename="D:/projects/file_search_engine/src/InvertedIndex.cpp">
+			<Option target="file_search_engine"/>
+		</Unit>
+		<Unit filename="D:/projects/file_search_engine/src/SearchServer.cpp">
+			<Option target="file_search_engine"/>
+		</Unit>
+		<Unit filename="D:/projects/file_search_engine/src/main.cpp">
 			<Option target="file_search_engine"/>
 		</Unit>
 		<Unit filename="D:/projects/file_search_engine/CMakeLists.txt">

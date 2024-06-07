@@ -184,6 +184,19 @@ file_search_engine/fast:
 .PHONY : file_search_engine/fast
 
 #=============================================================================
+# Target rules for targets named nlohmann_json
+
+# Build rule for target.
+nlohmann_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nlohmann_json
+.PHONY : nlohmann_json
+
+# fast build rule for target.
+nlohmann_json/fast:
+	$(MAKE) $(MAKESILENT) -f nlohmann.json\CMakeFiles\nlohmann_json.dir\build.make nlohmann.json/CMakeFiles/nlohmann_json.dir/build
+.PHONY : nlohmann_json/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -235,101 +248,101 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-ConverterJSON.obj: ConverterJSON.cpp.obj
-.PHONY : ConverterJSON.obj
+src/ConverterJSON.obj: src/ConverterJSON.cpp.obj
+.PHONY : src/ConverterJSON.obj
 
 # target to build an object file
-ConverterJSON.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.obj
-.PHONY : ConverterJSON.cpp.obj
+src/ConverterJSON.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.obj
+.PHONY : src/ConverterJSON.cpp.obj
 
-ConverterJSON.i: ConverterJSON.cpp.i
-.PHONY : ConverterJSON.i
+src/ConverterJSON.i: src/ConverterJSON.cpp.i
+.PHONY : src/ConverterJSON.i
 
 # target to preprocess a source file
-ConverterJSON.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.i
-.PHONY : ConverterJSON.cpp.i
+src/ConverterJSON.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.i
+.PHONY : src/ConverterJSON.cpp.i
 
-ConverterJSON.s: ConverterJSON.cpp.s
-.PHONY : ConverterJSON.s
+src/ConverterJSON.s: src/ConverterJSON.cpp.s
+.PHONY : src/ConverterJSON.s
 
 # target to generate assembly for a file
-ConverterJSON.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/ConverterJSON.cpp.s
-.PHONY : ConverterJSON.cpp.s
+src/ConverterJSON.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/ConverterJSON.cpp.s
+.PHONY : src/ConverterJSON.cpp.s
 
-InvertedIndex.obj: InvertedIndex.cpp.obj
-.PHONY : InvertedIndex.obj
+src/InvertedIndex.obj: src/InvertedIndex.cpp.obj
+.PHONY : src/InvertedIndex.obj
 
 # target to build an object file
-InvertedIndex.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.obj
-.PHONY : InvertedIndex.cpp.obj
+src/InvertedIndex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.obj
+.PHONY : src/InvertedIndex.cpp.obj
 
-InvertedIndex.i: InvertedIndex.cpp.i
-.PHONY : InvertedIndex.i
+src/InvertedIndex.i: src/InvertedIndex.cpp.i
+.PHONY : src/InvertedIndex.i
 
 # target to preprocess a source file
-InvertedIndex.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.i
-.PHONY : InvertedIndex.cpp.i
+src/InvertedIndex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.i
+.PHONY : src/InvertedIndex.cpp.i
 
-InvertedIndex.s: InvertedIndex.cpp.s
-.PHONY : InvertedIndex.s
+src/InvertedIndex.s: src/InvertedIndex.cpp.s
+.PHONY : src/InvertedIndex.s
 
 # target to generate assembly for a file
-InvertedIndex.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/InvertedIndex.cpp.s
-.PHONY : InvertedIndex.cpp.s
+src/InvertedIndex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/InvertedIndex.cpp.s
+.PHONY : src/InvertedIndex.cpp.s
 
-SearchServer.obj: SearchServer.cpp.obj
-.PHONY : SearchServer.obj
+src/SearchServer.obj: src/SearchServer.cpp.obj
+.PHONY : src/SearchServer.obj
 
 # target to build an object file
-SearchServer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/SearchServer.cpp.obj
-.PHONY : SearchServer.cpp.obj
+src/SearchServer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.obj
+.PHONY : src/SearchServer.cpp.obj
 
-SearchServer.i: SearchServer.cpp.i
-.PHONY : SearchServer.i
+src/SearchServer.i: src/SearchServer.cpp.i
+.PHONY : src/SearchServer.i
 
 # target to preprocess a source file
-SearchServer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/SearchServer.cpp.i
-.PHONY : SearchServer.cpp.i
+src/SearchServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.i
+.PHONY : src/SearchServer.cpp.i
 
-SearchServer.s: SearchServer.cpp.s
-.PHONY : SearchServer.s
+src/SearchServer.s: src/SearchServer.cpp.s
+.PHONY : src/SearchServer.s
 
 # target to generate assembly for a file
-SearchServer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/SearchServer.cpp.s
-.PHONY : SearchServer.cpp.s
+src/SearchServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/SearchServer.cpp.s
+.PHONY : src/SearchServer.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file_search_engine.dir\build.make CMakeFiles/file_search_engine.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -349,18 +362,19 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... ConverterJSON.obj
-	@echo ... ConverterJSON.i
-	@echo ... ConverterJSON.s
-	@echo ... InvertedIndex.obj
-	@echo ... InvertedIndex.i
-	@echo ... InvertedIndex.s
-	@echo ... SearchServer.obj
-	@echo ... SearchServer.i
-	@echo ... SearchServer.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... nlohmann_json
+	@echo ... src/ConverterJSON.obj
+	@echo ... src/ConverterJSON.i
+	@echo ... src/ConverterJSON.s
+	@echo ... src/InvertedIndex.obj
+	@echo ... src/InvertedIndex.i
+	@echo ... src/InvertedIndex.s
+	@echo ... src/SearchServer.obj
+	@echo ... src/SearchServer.i
+	@echo ... src/SearchServer.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
