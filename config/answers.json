@@ -33,31 +33,6 @@
                 }
             ],
             "result": true
-        },
-        "request3": {
-            "result": false
-        },
-        "request4": {
-            "relevance": [
-                {
-                    "docid": 2,
-                    "rank": 1.0
-                }
-            ],
-            "result": true
-        },
-        "request5": {
-            "relevance": [
-                {
-                    "docid": 0,
-                    "rank": 1.0
-                },
-                {
-                    "docid": 1,
-                    "rank": 0.5
-                }
-            ],
-            "result": true
         }
     }
 }

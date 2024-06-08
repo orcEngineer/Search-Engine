@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake
+D:/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake
+D:/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake
+D:/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake
+D:/CMake/share/cmake-3.29/Modules/ExternalProject.cmake
+D:/CMake/share/cmake-3.29/Modules/ExternalProject/PatchInfo.txt.in
+D:/CMake/share/cmake-3.29/Modules/ExternalProject/RepositoryInfo.txt.in
+D:/CMake/share/cmake-3.29/Modules/ExternalProject/UpdateInfo.txt.in
+D:/CMake/share/cmake-3.29/Modules/ExternalProject/cfgcmd.txt.in
+D:/CMake/share/cmake-3.29/Modules/ExternalProject/download.cmake.in
+D:/CMake/share/cmake-3.29/Modules/ExternalProject/extractfile.cmake.in
+D:/CMake/share/cmake-3.29/Modules/ExternalProject/mkdirs.cmake.in
+D:/CMake/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake
+D:/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake
+D:/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake
+D:/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+D:/projects/file_search_engine/build/_deps/googletest-subbuild/CMakeFiles/3.29.0-rc4/CMakeSystem.cmake
+D:/projects/file_search_engine/build/_deps/googletest-subbuild/CMakeLists.txt
+D:/projects/file_search_engine/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake
