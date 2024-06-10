@@ -1,3 +1,0 @@
-D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\file_search_engine_tests.dir/objects.a
-"D:\CLion 2024.1.1\bin\mingw\bin\ar.exe" qc CMakeFiles\file_search_engine_tests.dir/objects.a @CMakeFiles\file_search_engine_tests.dir\objects1.rsp
-"D:\CLion 2024.1.1\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\file_search_engine_tests.dir/objects.a -Wl,--no-whole-archive -o file_search_engine_tests.exe -Wl,--out-implib,libfile_search_engine_tests.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\file_search_engine_tests.dir\linkLibs.rsp
