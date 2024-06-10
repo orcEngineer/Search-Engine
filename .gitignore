@@ -1,0 +1,53 @@
+# Временные файлы и папки
+*.obj
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Каталоги сборки
+/lib
+/.cmake/
+/.idea/
+/CMakeCache.txt
+/CMakeFiles/
+/CTestTestfile.cmake
+/Makefile
+/Testing/
+/_deps/
+/build/
+/cmake-build-debug/
+/cmake_install.cmake
+/file_search_engine.cbp
+/file_search_engine.exe
+file_search_engine[1]_include.cmake
+file_search_engine[1]_tests.cmake
+/file_search_engine_tests.exe
+file_search_engine_tests[1]_include.cmake
+file_search_engine_tests[1]_tests.cmake
+
+# CMake файлы
+CMakeScripts/
+
+# CLion файлы
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+*.swp
+*.DS_Store
+
+# Локальные конфигурации среды
+*.local
